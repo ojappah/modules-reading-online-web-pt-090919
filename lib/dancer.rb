@@ -4,7 +4,9 @@ class Dancer
   include Dance
  
   attr_accessor :name
- 
+ class Dancer
+  extend MetaDancing
+end
   def initialize(name)
     @name = name
   end
